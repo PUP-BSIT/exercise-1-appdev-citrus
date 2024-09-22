@@ -56,3 +56,4 @@ var snowyOwl = {
             "which is amazing! I can grow old with him.");
     },
 };
+cat.print();

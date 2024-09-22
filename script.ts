@@ -82,3 +82,5 @@ const snowyOwl: Pets = {
     );
   },
 };
+
+cat.print();
