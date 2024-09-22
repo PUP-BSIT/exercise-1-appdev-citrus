@@ -13,3 +13,16 @@ type Pets = {
     gender: string;
     print(): void;
 }
+
+const cat: Pets = {
+    animal: Animals.MAMMALS,
+    color: "white",
+    lifespan: "10 years",
+    gender: "female",
+    print() {
+        console.log(`I want a cat, that is color ${this.color}, with a lifespan 
+                    of ${this.lifespan}, and a ${this.gender}. \n Cat's are 
+                    part of a ${this.animal} group and they can help us with 
+                    stress that boost our mental health.`);
+    }
+};
