@@ -54,7 +54,7 @@ const turtle: Pets = {
 };
 
 const axolotl: Pets = {
-    animal: Animal.AMPHIBIAN,
+    animal: Animals.AMPHIBIAN,
     color: "white",
     lifespan: "6 years",
     gender: "female",
@@ -64,4 +64,21 @@ const axolotl: Pets = {
             with a lifespan of ${this.lifespan}.
             She is classified as ${this.animal}.`);
     }
+};
+
+const snowyOwl: Pets = {
+  animal: Animals.BIRDS,
+  color: "white",
+  lifespan: "10-12 years",
+  gender: "male",
+  print() {
+    console.log(
+       `In my whole life, I have never had a pet that is a ${this.animal}. ` +
+        `If I could have one, I would like to have a snowy owl ` +
+        `that has a color of ${this.color} and is a ${this.gender}. ` +
+        `Even when it's old, it would still be white. ` +
+        `Snowy owls have an incredible lifespan of up to ${this.lifespan}, ` +
+        `which is amazing! I can grow old with him.`
+    );
+  },
 };

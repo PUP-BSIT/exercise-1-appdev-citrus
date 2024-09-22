@@ -21,6 +21,38 @@ var goldfish = {
     lifespan: "1 year",
     gender: "female",
     print: function () {
-        console.log("When I was a kid, I have a ".concat(this.animal, " that's a goldfish, \n            it has color of ").concat(this.color, " it lived around for almost ").concat(this.lifespan, ". \n            I think it's a ").concat(this.gender, "."));
+        console.log("When I was a kid, I have a ".concat(this.animal, "\n                    that's a goldfish, it has color of ").concat(this.color, "\n                    it lived around for almost ").concat(this.lifespan, ".\n                    I think it's a ").concat(this.gender, "."));
     }
+};
+var turtle = {
+    animal: Animals.REPTILE,
+    color: "brown",
+    lifespan: "20-30 years",
+    gender: "female",
+    print: function () {
+        console.log("My friend has a turtle that is ".concat(this.color, " in color\n                    and is a ").concat(this.gender, ". As a ").concat(this.animal, ",\n                    she is known for her calm demeanor. Her turtle has a\n                    lifespan of ").concat(this.lifespan, " according to her mom."));
+    },
+};
+var axolotl = {
+    animal: Animals.AMPHIBIAN,
+    color: "white",
+    lifespan: "6 years",
+    gender: "female",
+    print: function () {
+        console.log("I have a".concat(this.gender, " ").concat(this.color, " Axolotl, \n            with a lifespan of ").concat(this.lifespan, ".\n            She is classified as ").concat(this.animal, "."));
+    }
+};
+var snowyOwl = {
+    animal: Animals.BIRDS,
+    color: "white",
+    lifespan: "10-12 years",
+    gender: "male",
+    print: function () {
+        console.log("In my whole life, I have never had a pet that is a ".concat(this.animal, ". ") +
+            "If I could have one, I would like to have a snowy owl " +
+            "that has a color of ".concat(this.color, " and is a ").concat(this.gender, ". ") +
+            "Even when it's old, it would still be white. " +
+            "Snowy owls have an incredible lifespan of up to ".concat(this.lifespan, ", ") +
+            "which is amazing! I can grow old with him.");
+    },
 };
