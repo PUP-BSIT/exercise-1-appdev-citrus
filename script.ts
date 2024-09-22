@@ -26,3 +26,18 @@ const cat: Pets = {
                     stress that boost our mental health.`);
     }
 };
+
+const goldfish: Pets = {
+    animal: Animals.FISH,
+    color: "golden",
+    lifespan: "1 year",
+    gender: "female",
+    print() {
+        console.log(`When I was a kid, I have a ${this.animal} that's a goldfish, 
+            it has color of ${this.color} it lived around for almost ${this.lifespan}. 
+            I think it's a ${this.gender}.`);
+    }
+};
+
+
+
