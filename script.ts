@@ -53,3 +53,15 @@ const turtle: Pets = {
     },
 };
 
+const axolotl: Pets = {
+    animal: Animal.AMPHIBIAN,
+    color: "white",
+    lifespan: "6 years",
+    gender: "female",
+    print(){
+        console.log (
+            `I have a${this.gender} ${this.color} Axolotl, 
+            with a lifespan of ${this.lifespan}.
+            She is classified as ${this.animal}.`);
+    }
+};
