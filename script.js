@@ -58,5 +58,3 @@ var snowyOwl = {
 };
 cat.print();
 axolotl.print();
-goldfish.print();
-turtle.print();
