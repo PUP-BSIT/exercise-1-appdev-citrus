@@ -84,3 +84,4 @@ const snowyOwl: Pets = {
 };
 
 cat.print();
+axolotl.print();
