@@ -33,11 +33,23 @@ const goldfish: Pets = {
     lifespan: "1 year",
     gender: "female",
     print() {
-        console.log(`When I was a kid, I have a ${this.animal} that's a goldfish, 
-            it has color of ${this.color} it lived around for almost ${this.lifespan}. 
-            I think it's a ${this.gender}.`);
+        console.log(`When I was a kid, I have a ${this.animal}
+                    that's a goldfish, it has color of ${this.color}
+                    it lived around for almost ${this.lifespan}.
+                    I think it's a ${this.gender}.`);
     }
 };
 
-
+const turtle: Pets = {
+    animal: Animals.REPTILE,
+    color: "brown",
+    lifespan: "20-30 years",
+    gender: "female",
+    print() {
+        console.log(`My friend has a turtle that is ${this.color} in color
+                    and is a ${this.gender}. As a ${this.animal},
+                    she is known for her calm demeanor. Her turtle has a
+                    lifespan of ${this.lifespan} according to her mom.`);
+    },
+};
 
