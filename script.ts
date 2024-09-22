@@ -85,3 +85,4 @@ const snowyOwl: Pets = {
 
 cat.print();
 axolotl.print();
+goldfish.print();

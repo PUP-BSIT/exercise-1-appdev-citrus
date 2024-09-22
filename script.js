@@ -57,3 +57,4 @@ var snowyOwl = {
     },
 };
 cat.print();
+axolotl.print();
