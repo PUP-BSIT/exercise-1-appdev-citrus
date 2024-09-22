@@ -5,3 +5,11 @@ enum Animals {
     AMPHIBIAN = "Amphibian",
     REPTILE = "Reptile"
 }
+
+type Pets = {
+    animal: Animals;
+    color: string;
+    lifespan: string;
+    gender: string;
+    print(): void;
+}
